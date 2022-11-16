@@ -1,0 +1,34 @@
+Answer the following questions by modifying this text file.  Write
+your answers between each question.  You're not being graded or judged
+on these answers.
+
+1. What is your name?  What do you prefer to be called?
+
+My name is Vladimir Soto-Aviña. Vlad or Vladimir is fine. I don't mind
+
+2. Why are you taking CS35?
+I am taking CS35 because I want to be a CS major. 
+
+
+3. What is your previous experience in Computer Science?  What
+programming languages do you know, and which classes have you taken?
+
+I had CS21 last semester and AP CS in high school.  
+
+4. These are a couple questions about how you approach your assignments.
+
+  a. Do you start on your homework as soon as it is assigned or do you
+  tend to finish it right before it's due?
+  
+  Based on CS21, I tend to finish it right before it's due. 
+  
+  b. When doing group work, do you prefer for your group to split your
+  work up into pieces or do you like to work together as a group
+  through as much of the material as possible?
+
+I love to work together as a group through as much of the material as possible. I tend to have a lot of questions
+, so I appreciate brainstorming with someone. 
+
+5. What do you consider fun?
+
+I consider fun as playing videogames, playing guitar, reading manga/comics, biking, and drawing. 
