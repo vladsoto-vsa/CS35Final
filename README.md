@@ -1,3 +1,3 @@
 # codingProjects
 
-This repository contains three projects from Computer Science courses at Swarthmore College, including a project from the 2021 Tri-Co Hackathon. 
+This repository contains coursework from several courses in the Swarthmore College Computer Science Department and a project from the 2021 Tri-Co Hackathon. 
