@@ -1,0 +1,32 @@
+==================================================
+             Welcome to Math Quiz!
+==================================================
+
+How many questions would you like? 5
+
+--------------------------------------------------
+1. What is 9 + 7 ?
+Your answer: 16
+Great job!
+
+--------------------------------------------------
+2. What is 8 - 1 ?
+Your answer: 7
+Well done!
+
+--------------------------------------------------
+3. What is 10 + 5 ?
+Your answer: 14
+Sorry, the answer is 15
+
+--------------------------------------------------
+4. What is 4 + 4 ?
+Your answer: 8
+You know your stuff.
+
+--------------------------------------------------
+5. What is 8 + 6 ?
+Your answer: 14
+You know your stuff.
+
+You got 4 out of 5 correct.

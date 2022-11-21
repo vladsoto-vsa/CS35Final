@@ -1,0 +1,5 @@
+Userame,Control section is bottom 1/5 of window,At least 3 color choices,Stacked buttons for blob control,Contains example blob,Can change blob color,Can change blob radius,Blob radius has min and max,Example blob responds to changes,Blobs cannot be drawn over control section,Can quit,TOTAL,COMMENTS
+test1,1,1,1,1,1,1,1,1,1,1,10,Great job!
+test2,1,0,1,0,1,0,1,0,1,0,5,Had some issues.
+test3,1,1,1,1,1,0.5,1,1,1,1,9.5,Minor problem.
+test4,1,1,1,1,0,1,1,1,0,1,8,Substantially correct.

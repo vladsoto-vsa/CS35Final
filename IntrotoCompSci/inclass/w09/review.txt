@@ -1,0 +1,56 @@
+1. Give an overview of how linear search operates.
+Methodically checks every item in the list, one at a time, starting  on the
+first and going until the last.
+
+2. What is the running time of linear search?
+If the list is size N, in the worst case it takes O(N).
+
+3. Give an overview of how binary search operates.
+
+Assumes that the list is sorted, keeps track of a range of indices
+where the item could be in the list. Initializes the range to the
+entire list at the beginning of the search. It always checks the
+middle of that range for the item. Then divides the range of
+possible items to search in half depending on if what we want is
+larger or smaller than the mid. Keeps goign until it finds item or
+low_index becomes greater than the high_index.
+
+4. What is the running time of binary search?
+
+If the list is size N, O(lgN)
+
+5. Which one is faster?
+
+Binary search is much faster!
+
+6. If one of them is faster, why don't we just use it for every search
+   problem?
+
+   So, binary search requires a sorted list, or if the list is very short,
+   may just be easier to use linear search.
+
+7. Consider the following list (both the values and the indices are
+   shown) and suppose we wanted to search for the value 17.  Trace
+   through how low_index, high_index, and mid_index would change
+   during a binary search.
+
+     0  1   2   3   4   5   6   7   8   9  10
+   [ 5, 9, 12, 17, 22, 31, 46, 53, 67, 84, 97]
+
+    low_index: 0, 0, 3
+   high_index: 10, 4, 4
+    mid_index: 5, 2, 3
+
+8. Consider the following list (b oth the values and the indices are
+   shown) and suppose we wanted to search for the value 54.  Trace
+   through how low_index, high_index, and mid_index would change
+   during a binary search.
+
+     0  1   2   3   4   5   6   7   8   9  10
+   [ 5, 9, 12, 17, 22, 31, 46, 53, 67, 84, 97]
+
+    low_index: 0, 6, 6, 7, 8
+   high_index: 10, 10, 7, 7, 7we know that 54 is NOT in the list!
+    mid_index: 5, 8, 6, 7
+
+  Whenever the item we want to
