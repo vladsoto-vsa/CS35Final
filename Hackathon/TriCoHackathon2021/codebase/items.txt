@@ -1,0 +1,15 @@
+horse, 40, transport
+car, 60, transport
+bike, 30, transport
+bus, 50, transport
+
+waffle, 10, food
+burger, 20, food
+salad, 5, food
+water, 2, food
+coffee, 3, food
+
+charge phone, 5, energy
+lights, 10, energy
+solar, 1, energy
+
