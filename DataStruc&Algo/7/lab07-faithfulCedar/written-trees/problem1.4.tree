@@ -1,0 +1,15 @@
+            40
+     24               54
+  12    36       46       80
+11            42    50  79  81
+                43
+
+:Since 79 is the smallest value of the right most subtree of 54, 79 is swapped with 54, and 54 is removed
+
+            40
+     24               79
+  12    36       46       80
+11            42    50      81
+                43
+
+:The tree is now balanced. 

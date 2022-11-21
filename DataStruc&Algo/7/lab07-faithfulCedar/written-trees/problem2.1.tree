@@ -1,0 +1,26 @@
+        9
+    7       5
+  4   5   3   2
+ 3 2 1
+
+:Since the BT has to remain complete, 9 will be inserted
+:as the right child of the left 5. 
+
+        9
+    7       5
+  4   5   3   2
+ 3 2 1 9
+:The max-heap invariant must be met, so 9 is swapped with 5
+:since 9 greater than 5. 
+        9
+    7       5
+  4   9   3   2
+ 3 2 1 5
+:Since 9 is now the child of 7, it must also swap.
+:This leaves 9 to be a child of the root 9, which meets the heap invariant. 
+        9
+    9       5
+  4   7   3   2
+ 3 2 1 5
+
+

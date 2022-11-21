@@ -1,0 +1,27 @@
+      30
+  20      40
+10
+
+:Since 12 is smaller than the root, 30, it goes to the left, and since 12 is smaller than 20, it goes to the left
+:Since 12 is larger than 10, it goes to the right
+        30
+    20      40
+10
+  12
+
+
+:The tree is unbalanced since the LSTH and RSTH of 20 (2) - (0) greater than 1
+:Since the Y subtree height is greater than the x subtree height, a left rotation is performed around 12
+
+          30
+      20      40  
+    12 
+  10           
+
+:Now a right rotation is performed around 20
+
+        30
+    12      40  
+  10  20       
+
+:The tree is now balanced

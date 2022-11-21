@@ -1,0 +1,34 @@
+        9
+    4       8
+  4   3   7   2
+ 3 1 2 2 6 4 1
+:Since 9, the root, is being removed, it will be swapped with last node, which is 1.
+        1
+    4       8
+  4   3   7   2
+ 3 1 2 2 6 4 9
+ :Once swapped, 9 can be removed. 1 is now the root. 
+        1
+    4       8
+  4   3   7   2
+ 3 1 2 2 6 4 
+
+:To meet the heap invariant, 1 will be swapped with either its right or left child.
+:Since rightChild(8) greater than leftChild(4), 1 is swapped with 8. 
+        8
+    4       1
+  4   3   7   2
+ 3 1 2 2 6 4 
+
+:Now that 1 has been bubbledDown, it's compared with its new children.
+:In this case, it's swapped with 7 since 7 greater than 2. 
+        8
+    4       7
+  4   3   1   2
+ 3 1 2 2 6 4 
+:Like before, 1 is swapped. This time it is with 6 since 6 greater than 4.
+:1 becomes a leafNode, so it stops there. 
+        8
+    4       7
+  4   3   6   2
+ 3 1 2 2 1 4 

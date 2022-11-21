@@ -1,0 +1,22 @@
+# TODO: show the list interpreted as a complete binary tree
+
+             5
+         4      2
+       3   2  8   5
+
+
+# TODO: show each bubble-up operation as the tree is heapified
+
+:The 8 would first swap with 2, to make the right Subtree a heap. 
+:Since the left Subtree is already a heap, no swapping is needed. 
+
+             5
+         4      8
+       3   2  2   5
+
+:Since both subtrees are heaps, the root 5 can now be bubbled down.
+:8 greater than 4, so 5 is swapped with 8
+             8
+         4      5
+       3   2  2   5
+:With having met the max-heap invariant, the Complete Binary Tree is now a heap. 
