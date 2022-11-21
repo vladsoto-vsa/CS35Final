@@ -1,0 +1,49 @@
+
+
+CS 21 Lab 2
+
+Name: Vladimir Soto-Avina
+
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 3
+
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 4
+
+
+Describe the biggest challenge you faced on this lab:
+
+ The biggest challenge i faced on this lab was figuring out where to put the
+ functions (like for statements) in relation to the whole program
+
+
+
+Summary short-answer questions:
+
+1. Again consider the following code involving a string. Does it work? Why or
+   why not?
+
+```
+text = "cat"
+print(text[3])
+```
+The range is 3 is but it starts from 0, so instead it should be print(text[2]).
+
+
+2. When we use the built-in function `range(3)`, what sequence of values does
+   i take on in the 'for i in range(3)' loop?
+
+   the values i would take would be 0 to the range-1. For example, for range(3)
+   it would be 0 to 2.
+
+3. Consider the program, `tipjar.py`. What inputs can we give the program to
+ quickly test whether the program is working (besides the sample output that
+ we give you!)
+  We can give an input of at least two customers and amount spent for each like
+  $1.00. we can see it works if the total tip amount is $.20. 

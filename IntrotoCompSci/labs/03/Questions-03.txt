@@ -1,0 +1,49 @@
+CS 21 Lab 3
+
+Name: Vladimir Soto-Avina
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 3
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 3
+
+Describe the biggest challenge you faced on this lab:
+The biggest challenge I faced in this lab was the password program.
+I had trouble realizing how to convert letters to other symbols with if/elif
+statements
+
+
+
+Summary short-answer questions:
+
+1. How many times would the following `for` loop execute?
+
+```
+text = "kitten"
+for i in range(len(text)):
+   print(text[i])
+```
+the `for` loop executes six times
+
+2. When writing an `if` statement, does the syntax require that it include an `else`?
+ No it does not require an `else`
+
+
+3. What does the following `if` statement print?
+
+```
+x = 3
+y = 4
+if x == y:
+   print("same!")
+elif x > y:
+   print("bigger")
+else:
+   print("smaller")
+```
+The `if` statement prints "smaller"

@@ -1,0 +1,15 @@
+Tabitha,Calico Tabby,Leisurely
+Bolt,Brown Tabby,Insatiable
+Snowball,Solid White,Mellow
+Spots,Black & White,Joker
+Shadow,Solid Grey,Peculiar
+Fred,Orange Tabby,Silly
+Bandit,Tortoiseshell,Wild
+Pumpkin,Orange & White,Spacey
+AdaLoveyarn,Tuxedo,Intelligent
+AlanPurring,Grey & White,Adventurous
+Marshmallow,Pointed,Aloof
+Sunny,Turkish Calico,Mischievous
+Gabby,Tuxedo,Diligent
+Mittens,Black & White,Calm
+Chewy,Orange Tabby,Sleepy

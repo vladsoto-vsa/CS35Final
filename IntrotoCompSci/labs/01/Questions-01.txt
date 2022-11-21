@@ -1,0 +1,41 @@
+
+
+CS 21 Lab 1
+
+Name:Vladimir Soto-Avina
+
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 1
+
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 1
+
+
+Describe the biggest challenge you faced on this lab:
+
+The biggest challenge I face in this lab was trying to figure out what approach
+to take. I know there are multiple approaches to these kinds of problems/
+
+Summary short-answer questions:
+
+1. Will 5+"hello" work in python? Why or why not?
+   What about 5*"hello"?
+
+   5+"hello" will not work in python because 5 is a integer and "hello" is a string
+   5*"hello" works by repeating "hello" five times.
+   
+2. The built-in input() function returns whatever the user inputs as
+   what data type: integer, float, or string?
+
+   The input() function returns values as strings, unless float or integer are put before it.
+
+3. In the runner.py program, when you type in 137.9, how do you
+   know the answers your program displays are correct?
+
+   They are correct because I used a calculator and mental math to calculate the time.

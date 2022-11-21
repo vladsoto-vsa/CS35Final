@@ -1,0 +1,39 @@
+CS 21 Lab 11
+
+Name: Vladimir Soto-Avina
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 7
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 4
+
+
+Describe the biggest challenge you faced on this lab:
+
+The biggest challenge I faced in this lab was the update function. Using
+if statements quite a lot made it a bit confusing
+
+
+
+Short-answer questions:
+
+1. For the Yard objects, which instance variable stores the "size"
+   of the yard (how many items it can hold)?
+   self.limit or nslots
+
+2. For the Store objects, what method adds an item to the store,
+   and what instance variable does that method change?
+   addItem. It changes self.items by appending an item to the list
+
+3. In all of our class files, what does the "self" parameter do?
+    Since we are using classes that have many methods, the self
+    helps us "access" the class and its methods
+
+4. Which are better, dogs or cats?
+
+  although I love both, dogs are more wholesome

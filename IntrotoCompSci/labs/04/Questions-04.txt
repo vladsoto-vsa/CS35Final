@@ -1,0 +1,47 @@
+CS 21 Lab 4
+
+Name: Vladimir Soto-Avina
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 6
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 5
+
+
+Describe the biggest challenge you faced on this lab:
+
+The biggest challenge i faced was dealing with the menu function in the menu
+problem
+
+
+
+Summary short-answer questions:
+
+1. Can one function call another function?
+   Have we ever done that? If yes, give an example.
+   yes, like in the patterns.py
+
+2. What's the difference between range(1,10) and randrange(1,10)?
+   range gives the difference of the max and min
+   randrange gives a random number within the range
+
+3. For the following code:
+
+x = 35
+print("x = %4d" % (x))
+
+   What does the 4 in the %4d do?
+ the number of spaces until printed (width)
+
+4. What would the following code do?
+
+x = 0
+while x >= 0:
+   x = x + 1
+   print(x)
+ this will continue to add +1 to x forever, until the computer dies

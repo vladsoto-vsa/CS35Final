@@ -1,0 +1,18 @@
+Rubber Ball,60,toy
+Pillow,120,toy
+Fish Bowl,80,toy
+Yarn,120,toy
+Frisky Bitz,30,food
+Two-tier Cat Tree,200,toy
+Deluxe Tuna Bitz,12,food
+Sashimi,52,food
+Fluffy Brown Bed,160,toy
+Bean Bag,120,toy
+Colorful Sock,20,toy
+White Sock,22,toy
+Toy Mouse,75,toy
+Green Box,5,toy
+Keyboard,95,toy
+Tape,15,toy
+Punch Cards,64,toy
+Cheese Bites,15,food

@@ -1,0 +1,42 @@
+CS 21 Lab 6
+
+Name: Vladimir Soto-Avina
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 3
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 3
+
+Describe the biggest challenge you faced on this lab:
+
+
+The biggest challenge I face in this lab
+
+Summary short-answer questions:
+
+1. In this lab you implemented a blobillism library (also known as a module)
+ that you then imported into both your testing program and your final program.
+ Why is it useful to create a library?
+ It's useful to create a library because it gives better readability and
+ reusability. By reusability, I mean the function can be used for a
+ wide range of purposes. 
+
+
+
+
+2. In this lab you created an application with clickable buttons.
+ How does the program know when a button has been pressed?
+
+Using the getMouse method and setup rectangles or buttons on windows,
+if the getMouse gives coordinates within the rectangles, the program knows
+the button has been "pressed"
+
+
+3. Circles are objects in the graphics library.
+    If you have a circle named `c` how would you find out it's radius?
+    Use c.getRadius()

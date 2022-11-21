@@ -1,0 +1,67 @@
+CS 21 Lab 5
+
+Name: Vladimir Soto-Avina
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 6
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 4
+
+
+Describe the biggest challenge you faced on this lab:
+the biggest challenge i faced in this lab was the doSpinWheel function
+
+
+
+Summary short-answer questions:
+
+1. What does the following code print? If there is an error, explain why.
+
+def foo(val):
+    val[0] = "b"
+    print(val)
+    return len(val)
+
+def main():
+    temp = "lol"
+    x = foo(temp)
+    print(x, temp)
+
+main()
+  The following code does not print anything. Since temp is set up as a string
+  and the function foo is looking for a list, it cannot replace the first letter
+  of the string with "b"
+
+2. What does the following code print? If there is an error, explain why.
+
+
+def foo(val):
+    val[0] = "b"
+    print(val)
+    return len(val)
+
+def main():
+    temp = ["l", "o", "l"]
+    x = foo(temp)
+    print(x, temp)
+
+main()
+
+  The code above prints the 3 and the list [b,o,l].
+  the b replaces the first letter in temp.
+3. What is the difference between a mutable and immutable datatype? Give an
+example of each.
+    A mutable datatype is an object you can change anywhere in the program
+      ex: a list is a mutable dataype
+
+
+    An immutable datatype is an object that cannot be altered after it's been
+    created.
+     ex: a string is an immutable datatype. if want to change the string, one of
+     ways to go around the immutability would be to create a new string by
+     accumulating on an empty

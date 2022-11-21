@@ -1,0 +1,44 @@
+CS 21 Lab 7 -- Complete this after the second week, when you have
+               fully implemented the game
+
+Name: Vladimir Soto-Avina
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 8
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 3
+
+
+Describe the biggest challenge you faced on this lab:
+
+The biggest challenge had to be the fact that we moved online. Apart from that,
+it had to be getting to display the changing cards.
+
+
+Summary short-answer questions:
+
+1. Briefly describe the steps in your algorithm to get from the user
+which card to flip, and how your program avoids crashing when the user enters
+something invalid.
+
+The program first displays the cards and intro and asks which two cards they
+want to match. My program then avoids crashing when the user enters something invalid by evaluating
+whether or not the user's input is a number between 0 and 9. If it's not,
+it will print "Select a card 0-9" until the user chooses a valid number.
+
+If it's valid, then it verifies if the two inputs are the same or if
+they've been entered before. If this is the case, then they go again. If not,
+those values are taken to index into the "hidden list" and "number list" to
+swap strings in the lists. 
+
+2. Briefly describe one benefit of doing the design *first*.
+
+Since programs like these require a lot of functions, it can be quite daunting
+when you're not sure what each one should do. By doing the design first,
+it gave me an idea of how I wanted to approach my program and how each
+function would depend on another.

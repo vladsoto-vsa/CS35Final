@@ -1,0 +1,68 @@
+CS 21 Lab 8
+
+Name: Vladimir Soto-Avina
+
+Approximately how many hours did you take to complete this lab?
+Provide your answer as a single integer on the "hours:" line below.
+
+hours: 5
+
+How difficult did you find this lab?
+(1-5, with 5 being very difficult and 1 being very easy)
+
+difficulty: 3
+
+
+Describe the biggest challenge you faced on this lab:
+
+The biggest challenge was understanding how to use the filename and load
+info from it.
+
+
+-----------------------------------
+- Search worksheet practice
+-----------------------------------
+
+Below are questions which are similar to what you might be asked on a
+quiz.
+
+Assume we are running searches that return the index of the word if it is in
+the list, and return -1 if the word is not in the list.  We are given the
+following list:
+
+lst = ["bear", "bird", "bug", "cat", "cow", "dog", "fish, "lion"]
+
+1. How many steps does it take to search for the value "cow" in the list using
+linear search?
+  7
+
+
+2. How many steps does it take to search for the value "cow" in the list using
+binary search?
+3
+
+
+3. Make a table to show the values for low, high, and mid for each comparison
+step in searching for the animal "bear" in the list using binary search. What
+is returned at the end of this algorithm?
+
+-------------------------------------
+ iteration | low | mid | high
+-------------------------------------
+              0      3     7
+              0      1      2
+              0      0      1
+
+4. Make a table to show the values for low, high, and mid for each comparison
+step in searching for the animal "elephant" in the list using binary search.
+What is returned at the end of this algorithm?
+
+-------------------------------------
+ iteration | low | mid | high
+-------------------------------------
+              0     3     7
+              4     5      7
+              6     6      7
+              6     6     6
+
+            not in list
